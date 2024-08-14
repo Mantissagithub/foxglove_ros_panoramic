@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: webcam_publish
+Version: 0.0.0
+Summary: ROS 2 package to publish images from a webcam
+Maintainer: pradheep
+Maintainer-email: mantissa6789@gmail.com
+License: Apache License 2.0
+Requires-Dist: setuptools
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"

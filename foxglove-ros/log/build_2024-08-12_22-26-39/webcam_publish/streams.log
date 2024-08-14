@@ -1,0 +1,39 @@
+[0.369s] Invoking command in '/home/pradheep/foxglove-ros/src/webcam_publish': PYTHONPATH=/home/pradheep/foxglove-ros/build/webcam_publish/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pradheep/foxglove-ros/install/webcam_publish/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/webcam_publish build --build-base /home/pradheep/foxglove-ros/build/webcam_publish/build install --record /home/pradheep/foxglove-ros/build/webcam_publish/install.log --single-version-externally-managed
+[0.532s] running egg_info
+[0.533s] creating ../../build/webcam_publish/webcam_publish.egg-info
+[0.542s] writing ../../build/webcam_publish/webcam_publish.egg-info/PKG-INFO
+[0.543s] writing dependency_links to ../../build/webcam_publish/webcam_publish.egg-info/dependency_links.txt
+[0.543s] writing entry points to ../../build/webcam_publish/webcam_publish.egg-info/entry_points.txt
+[0.543s] writing requirements to ../../build/webcam_publish/webcam_publish.egg-info/requires.txt
+[0.543s] writing top-level names to ../../build/webcam_publish/webcam_publish.egg-info/top_level.txt
+[0.543s] writing manifest file '../../build/webcam_publish/webcam_publish.egg-info/SOURCES.txt'
+[0.583s] ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+[0.584s] reading manifest file '../../build/webcam_publish/webcam_publish.egg-info/SOURCES.txt'
+[0.585s] Traceback (most recent call last):
+[0.585s]   File "/home/pradheep/foxglove-ros/src/webcam_publish/setup.py", line 5, in <module>
+[0.585s]     setup(
+[0.585s]   File "/home/pradheep/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 108, in setup
+[0.585s]     return distutils.core.setup(**attrs)
+[0.585s]   File "/home/pradheep/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 184, in setup
+[0.585s]     return run_commands(dist)
+[0.585s]   File "/home/pradheep/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 200, in run_commands
+[0.585s]     dist.run_commands()
+[0.585s]   File "/home/pradheep/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 970, in run_commands
+[0.585s]     self.run_command(cmd)
+[0.585s]   File "/home/pradheep/.local/lib/python3.10/site-packages/setuptools/dist.py", line 945, in run_command
+[0.585s]     super().run_command(command)
+[0.585s]   File "/home/pradheep/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 989, in run_command
+[0.586s]     cmd_obj.run()
+[0.586s]   File "/home/pradheep/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 310, in run
+[0.586s]     self.find_sources()
+[0.586s]   File "/home/pradheep/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 318, in find_sources
+[0.586s]     mm.run()
+[0.586s]   File "/home/pradheep/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 544, in run
+[0.586s]     self.prune_file_list()
+[0.586s]   File "/home/pradheep/.local/lib/python3.10/site-packages/setuptools/command/egg_info.py", line 610, in prune_file_list
+[0.586s]     base_dir = self.distribution.get_fullname()
+[0.586s]   File "/home/pradheep/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 266, in get_fullname
+[0.586s]     return _distribution_fullname(self.get_name(), self.get_version())
+[0.586s]   File "/home/pradheep/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 284, in _distribution_fullname
+[0.586s]     canonicalize_version(version, strip_trailing_zero=False),
+[0.586s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'

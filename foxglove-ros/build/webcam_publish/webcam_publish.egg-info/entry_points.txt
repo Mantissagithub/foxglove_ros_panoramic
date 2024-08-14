@@ -1,0 +1,2 @@
+[console_scripts]
+webcam_publisher = webcam_publish.webcam_publish:main
